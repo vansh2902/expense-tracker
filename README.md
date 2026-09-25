@@ -3,19 +3,19 @@
 A simple Python project to track daily expenses.
 
 ## Features
+- Add an expense (amount, category, description)
+- View all expenses
+- See total expenses
+- Input validation for numbers
 
-* Add expense
-* View expense
-* Exit
-
-## Technologies
-
-* Python 🐍
-
-## How to Run
-
+## How to run
 ```bash
-python expense_tracker.py
+python main.py
 ```
+Requires Python 3. No external libraries.
 
-Made by **Vansh**
+## Concepts used
+- Lists of dictionaries
+- `try/except` for input validation
+- Loops and conditionals
+- Generator expression with `sum()`
